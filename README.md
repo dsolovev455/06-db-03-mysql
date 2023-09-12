@@ -142,9 +142,6 @@ mysql> SELECT TABLE_NAME, ENGINE FROM information_schema.TABLES WHERE  TABLE_SCH
 - на MyISAM
 - на InnoDB
 ```
-mysql> SET profiling = 1;
-Query OK, 0 rows affected, 1 warning (0.00 sec)
-
 mysql> ALTER TABLE orders ENGINE = MyISAM;
 Query OK, 5 rows affected (0.01 sec)
 Records: 5  Duplicates: 0  Warnings: 0
